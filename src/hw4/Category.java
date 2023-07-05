@@ -1,2 +1,6 @@
-package hw4;public class Category {
+package hw4;
+
+public enum Category {
+    STANDARD,
+    PREMIUM
 }

@@ -1,2 +1,16 @@
-package hw4;public class Gender {
+package hw4;
+
+public enum Gender {
+    MALE("Мужской"),
+    FEMALE("Женский");
+
+    private final String label;
+
+    Gender(String label) {
+        this.label = label;
+    }
+
+    public String getLabel() {
+        return label;
+    }
 }
